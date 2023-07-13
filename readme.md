@@ -9,7 +9,7 @@ username varchar(30) not null unique,
 password varchar(255) not null
 );
 
-create table contacts (contactsphone_numbersusers
+create table contacts (
 id int auto_increment primary key,
 name varchar(40) not null unique,
 user_id int not null,
