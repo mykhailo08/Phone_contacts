@@ -1,6 +1,8 @@
 Додаю коротку інструкцію для користування та тестування данного тествого проекту
 1. Необхідно створити БД за допомогою наступних скриптів:
 ```
+create database phonecontactsdb;
+
 use phonecontactsdb;
 
 create table users (
